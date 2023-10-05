@@ -16,7 +16,7 @@ const toggleModal = () => {
 </script>
 <template>
   <div class="sticky top-0 left-0 z-[999] w-full bg-white border-b border-[#EDEDED]">
-    <div class="custom-container">
+    <div class="w-full mx-auto px-4 md:px-12 lg:px-[60px] xl:px-[100px] 2xl:px-[200px]">
       <div class="flex justify-between items-center py-[14px] lg:py-4">
         <div class="flex justify-between md:justify-start items-center gap-x-2 md:gap-x-8 w-full">
           <nuxt-link :to="('/')"><img class="w-[50px] h-[26px] lg:h-9 lg:w-[74px]" src="~/assets/images/header/jatri-logo.svg" alt="jatri logo"></nuxt-link>
