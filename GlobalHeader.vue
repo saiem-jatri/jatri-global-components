@@ -50,7 +50,7 @@ const toggleModal = () => {
         </div>
 
         <div v-if="sidebarOpen" class="bg-white absolute inset-y-0 right-0 -translate-x-[300px] slide" 
-          :class="sidebarOpen ? 'absolute  z-50 translate-x-0 transition delay-300 duration-300' : ''">
+          :class="sidebarOpen ? 'absolute z-50 translate-x-0 transition delay-300 duration-300' : ''">
           <div class="h-screen w-[300px] bg-white gap-y-10">
             <div class="flex justify-between items-center border-b border-[#EDEDED] px-4 py-5">
               <p class="font-medium text-sm text-black uppercase">menu</p>
