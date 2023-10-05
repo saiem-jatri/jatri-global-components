@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-primary">
+  <footer class="bg-[#f04935]">
     <div class="hidden lg:block lg:pt-8">
       <img src="~/assets/images/footer/footer-img.png" alt="Footer img" width="100%">
     </div>

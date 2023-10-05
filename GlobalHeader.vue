@@ -26,19 +26,19 @@ const toggleModal = () => {
                 <!--If you need active menu use invert in img class and use activeMenu class in parent div-->
                 <a href="https://rental.jatri.co/" target="_blank" class="linkItem">
                   <img class="invert w-3 lg:w-5" src="~/assets/images/header/car-svg.svg" alt="">
-                  <span class="text-sm lg:text-base text-dark">Rental</span>
+                  <span class="text-sm lg:text-base text-[#151414]">Rental</span>
                 </a>
               </div>
               <div class="py-1 px-2 lg:px-3 rounded-full">
                 <a href="https://ticket.jatri.co/" class="linkItem">
                   <img class="w-3 lg:w-5" src="~/assets/images/header/bus_2.svg" alt="">
-                  <span class="text-sm lg:text-base text-dark">Bus</span>
+                  <span class="text-sm lg:text-base text-[#151414]">Bus</span>
                 </a>
               </div>
               <div class="py-1 px-2 lg:px-3 rounded-full">
                 <a href="https://ticket.jatri.co/launch" class="linkItem">
                   <img class="w-3 lg:w-5" src="~/assets/images/header/Ship.svg" alt="">
-                  <span class="text-sm lg:text-base text-dark">Launch</span>
+                  <span class="text-sm lg:text-base text-[#151414]">Launch</span>
                 </a>
               </div>
             </div>
@@ -53,7 +53,7 @@ const toggleModal = () => {
           :class="sidebarOpen ? 'absolute z-50 translate-x-0 transition delay-300 duration-300' : ''">
           <div class="h-screen w-[300px] bg-white gap-y-10">
             <div class="flex justify-between items-center border-b border-[#EDEDED] px-4 py-5">
-              <p class="font-medium text-sm text-black uppercase">menu</p>
+              <p class="font-medium text-sm text-[#151414] uppercase">menu</p>
               <button @click="closeModal" class=""><img src="~/assets/images/header/cross-icon.svg" alt="X"></button>
             </div>
             <div class="flex flex-col px-2">
